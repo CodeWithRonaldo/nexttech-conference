@@ -8,45 +8,274 @@
 </head>
 <body>
     <header>
-        <h1>NextTech Conference 2025</h1>
-        <p>Date: June 1, 1970 | Location: Abuja, Nigeria</p>
+
+        <div class="header">
+            
+            <h1>NextTech</h1>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#speakers">Speakers</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <!-- <li><a href="#register">Register</a></li>
+                    <li><a href="#contact">Contact</a></li> -->
+            </ul>
+        </nav>
+        <div class="nav-buttons">
+            <button class="nav-btn"><a href="#register">Register</a></button>
+            <!-- <button class="nav-btn"><a href="#contact">Contact</a></button> -->
+        </div>
+        </div>
     </header>
-
+    
     <main>
-        <section>
-            <h2>Event Schedule</h2>
-            <ul>
-                <li>09:00 AM - Opening Keynote</li>
-                <li>10:00 AM - Future of Techie</li>
-                <li>11:00 AM - Networkinf Session</li>
-            </ul>
+        <section class="hero">
+            <h2>Welcome to NextTech Conference 2025</h2>
+            <p>Join us for a day of innovation, networking, and learning.</p>
+            <button> <a href="#register">Get Started</a></button>
         </section>
+        <div class="content-container">
 
-        <section>
-            <h2>Speakers</h2>
-            <ul>
-                <li>John Doe - CEO of ABC Corp</li>
-                <li>Freedie Smith - CTO of DEF Corp</li>
-                <li>John Doe - CEO of ABC Corp</li>
-            </ul>
+            <section class="benefit-hook">
+                <article>
+    
+                    <h2>Why you should join the Event?</h2>
+                    <p>Join us for the NextTech Conference 2025, where industry leaders and innovators come together to share insights and explore the future of technology. This is your chance to network with like-minded professionals, attend workshops, and hear from top speakers in the field.</p>
+                    <button>Register</button>
+                </article>
+            </section>
+            <section class="benefit-cards">
+                <div class="benefit-item">
+                    <h3>Networking <img src="/nexttech-conference/assets/handshake.svg" alt="handshake-image"></h3>
+                    <p>Connect with industry leaders and like-minded professionals.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>New People <img src="/nexttech-conference/assets/groups.svg" alt="groups-image"></h3>
+                    <p>Meet new people and expand your professional network.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Great Speakers<img src="/nexttech-conference/assets/microphone.svg" alt="microphone-image"> </h3>
+                    <p>Learn from the best in the industry.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Have Fun <img src="/nexttech-conference/assets/fun.svg" alt="fun-image"></h3>
+                    <p>Enjoy a day filled with exciting activities and discussions.</p>
+                </div>
+            </section>
+        </div>
+
+        <section id="speakers" class="speakers">
+            <h2>Featured Speakers</h2>
+            <div class="featured-speakers">
+
+                <div class="featured-speaker-card">
+                    <img src="/nexttech-conference/assets/speaker-image.jpeg" alt="Speaker 1">
+                    <h3>John Doe</h3>
+                    <p>CEO of Tech Innovations</p>
+                </div>
+                <div class="featured-speaker-card">
+                    <img src="/nexttech-conference/assets/speaker-image.jpeg" alt="Speaker 2">
+                    <h3>Jane Smith</h3>
+                    <p>CTO of Future Tech</p>
+                </div>
+                <div class="featured-speaker-card">
+                    <img src="/nexttech-conference/assets/speaker-image.jpeg" alt="Speaker 3">
+                    <h3>Freddie Johnson</h3>
+                    <p>Lead Developer at Code Masters</p>
+                </div>
+                <div class="featured-speaker-card">
+                    <img src="/nexttech-conference/assets/speaker-image.jpeg" alt="Speaker 4">
+                    <h3>Emily Davis</h3>
+                    <p>Product Manager at Innovate Inc.</p>
+                </div>
+                
+            </div>
+            <h2>Regular Speakers</h2>
+            <div class="regular-speakers">
+                <div class="speaker-card">
+                    <img src="/nexttech-conference/assets/speaker1.jpeg" alt="Speaker 6">
+                    <h3>Sarah Wilson</h3>
+                    <p>UX Designer at Creative Minds</p>
+                </div>
+                <div class="speaker-card">
+                    <img src="/nexttech-conference/assets/speaker2.jpeg" alt="Speaker 7">
+                    <h3>David Lee</h3>
+                    <p>Software Engineer at Code Wizards</p>
+                </div>
+                <div class="speaker-card">
+                    <img src="/nexttech-conference/assets/profile3.jpeg" alt="Speaker 8">
+                    <h3>Laura Martinez</h3>
+                    <p>Marketing Specialist at Brand Builders</p>
+                </div>
+                <div class="speaker-card">
+                    <img src="/nexttech-conference/assets/speaker1.jpeg" alt="Speaker 9">
+                    <h3>Chris Taylor</h3>
+                    <p>Cybersecurity Expert at SecureTech</p>
+                    
+                </div>
+                <div class="speaker-card">
+                    <img src="/nexttech-conference/assets/profile3.jpeg" alt="Speaker 10">
+                    <h3>Anna Johnson</h3>
+                    <p>Blockchain Specialist at Crypto Innovations</p>
+                </div>
+            </div>
+
         </section>
+        <section id="schedule" class="schedule-section">
+            <h2>Conference Schedule</h2>
+            <table class="schedule-table">
+                <caption >Monday, April 28, 2025</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Time</th>
+                        <th scope="col">Session</th>
+                        <th scope="col">Speaker</th>
+                        <th scope="col">Track</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09:00 AM - 10:00 AM</td>
+                        <td>Opening Keynote</td>
+                        <td>John Doe</td>
+                        <td>Main Stage</td>
+                    </tr>
+                    <tr>
+                        <td>10:15 AM - 11:15 AM</td>
+                        <td>The Future of Tech</td>
+                        <td>Jane Smith</td>
+                        <td>Innovation Track</td>
+                    </tr>
+                    <tr>
+                        <td>11:30 AM - 12:30 PM</td>
+                        <td>Networking Session</td>
+                        <td>Freddie Johnson</td>
+                        <td>Networking Lounge</td>
+                    </tr>
+                    <tr>
+                        <td>01:30 PM - 02:30 PM</td>
+                        <td>AI in Business</td>
+                        <td>Emily Davis</td>
+                        <td>Business Track</td>
+                    </tr>
+                    <tr>
+                        <td>02:45 PM - 03:45 PM</td>
+                        <td>Cybersecurity Trends</td>
+                        <td>Sarah Wilson</td>
+                        <td>Security Track</td>
+                    </tr>
+                    <tr>
+                        <td>04:00 PM - 05:00 PM</td>
+                        <td>Design Thinking Workshop</td>
+                        <td>David Lee</td>
+                        <td>Workshop Room 1</td>
+                    </tr>
+                    <tr>
+                        <td>05:15 PM - 06:15 PM</td>
+                        <td>Blockchain Basics</td>
+                        <td>Laura Martinez</td>
+                        <td>Workshop Room 2</td>
+                    </tr>
+                </tbody>
 
-        <section>
+            </table>
+        </section>
+        <section id="register" class="register-section">
             <h2>Register Now</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" name="name" placeholder="Enter your nmae" required> 
-                <label for="email">Email:</label>
-                <input type="email" name="email" placeholder="Enter Email" required>
-                <label for="phone">Organization:</label>
-                <input type="text" name="organization" placeholder="Enter your organization" required>
-                <button>Submit</button>
-
+            <div class="form-container">
+                <form class="register-form">
+                    
+                    <div class="form-column">
+                        <div class="form-group">
+                            <label>Name: <input type="text" required></label>
+                            <label>Email: <input type="email" required></label>
+                            <label>Phone: <input type="tel" required></label>
+                            <label>Organization: <input type="text" placeholder="Enter your organization" required></label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Comments:
+                                <textarea placeholder="Enter any comments or questions"></textarea>
+                            </label>
+                            
+                            <div class="checkbox-group">
+                                <label>
+                                    <input type="checkbox" required> I agree to the terms and conditions
+                                </label>
+                                <label>
+                                    <input type="checkbox" required> I agree to the privacy policy
+                                </label>
+                                <label>
+                                    <input type="checkbox"> Yes, I want to receive updates and news
+                                </label>
+                            </div>
+                            
+                            <label>Referral Code:
+                                <input type="text" placeholder="Enter referral code (if any)">
+                            </label>
+                            
+                            <label>How did you hear about us?
+                                <select required>
+                                    <option value="social-media">Social Media</option>
+                                    <option value="friend">Friend/Colleague</option>
+                                    <option value="website">Website</option>
+                                    <option value="email">Email</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="form-column">
+                        <div class="track-form-group">
+                            <fieldset>
+                                <legend>Track Preferences</legend>
+                                <label>Ticket Type:
+                                    <select required>
+                                        <option value="general">General Admission</option>
+                                        <option value="vip">VIP Pass</option>
+                                        <option value="student">Student Pass</option>
+                                    </select>
+                                </label>
+                                <label>Dietary Preferences:
+                                    <select required>
+                                        <option value="none">None</option>
+                                        <option value="vegetarian">Vegetarian</option>
+                                        <option value="vegan">Vegan</option>
+                                        <option value="gluten-free">Gluten-Free</option>
+                                    </select>
+                                </label>
+                                <label>T-Shirt Size:
+                                    <select required>
+                                        <option value="s">Small</option>
+                                        <option value="m">Medium</option>
+                                        <option value="l">Large</option>
+                                        <option value="xl">X-Large</option>
+                                    </select>
+                                </label>
+                                <label>Payment Method:
+                                    <select required>
+                                        <option value="credit-card">Credit Card</option>
+                                        <option value="paypal">PayPal</option>
+                                        <option value="bank-transfer">Bank Transfer</option>
+                                    </select>
+                                </label>
+                            </fieldset>
+                        </div>
+                    </div>
+                    
+                    <div class="button-container">
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+            
         </section>
+        
 
     </main>
 
-    <footer>
+    <footer  >
         <p>&copy; 2025 NextTech Conference. All rights reserved.</p>
 
     </footer>
